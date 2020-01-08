@@ -46,8 +46,9 @@ function pressIt() {
 
 function submitIt() {
 
+var input:first = 'G'
   $("form").on("submit", function() {
-  if ("#typing" ).val() === "G") {
+  if ("input:first" ).val() === "G") {
     alert('your form is going to be submitted now');
     return;
   }
