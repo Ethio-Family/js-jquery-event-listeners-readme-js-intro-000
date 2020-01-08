@@ -22,9 +22,10 @@ function frameIt() {
 
 
 
-    var element = document.getElementsByTagName('img');
-
-    element.on('load', function() {
+    //var element = document.getElementsByTagName('img');
+    
+    
+    document.querySelector('img').on('load', function() {
       element.addClass('tasty')
     });
 
