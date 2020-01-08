@@ -18,12 +18,12 @@ function getIt() {
 // The function should bind the load event that adds the class
 // tasty to the image to add a red frame to the image.
 
-// function frameIt() {
-//     document.querySelector('img').addEventListener('load', () => {
-//         //$(.tasty).append("tasty");
+function frameIt() {
+    document.querySelector('img').addEventListener('load', () => {
+        $(.tasty).append("image");
 
-//     })
-// }
+    })
+}
 
 
 // Define a function pressIt that does not accept a parameter.
