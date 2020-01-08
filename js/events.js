@@ -58,7 +58,7 @@ function submitIt() {
     alert("Your form is going to be submitted now.");
     return;
   }
-    
+
   });
 }
 
