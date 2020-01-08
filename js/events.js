@@ -21,16 +21,13 @@ function getIt() {
 function frameIt() {
 
 
+
     var element = document.getElementsByTagName('img');
-    class tasty {
-      constructor() {
 
-      }
-    }
-    document.querySelector('img').addEventListener('load', () => {
-        $(.tasty).append("image");
-
-    })
+    element.on('load', function() {
+      element.addClass('tasty')
+    });
+    
 }
 
 
