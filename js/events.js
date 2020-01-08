@@ -26,7 +26,7 @@ function frameIt() {
 
 
     $('img').on('load', function() {
-      document.querySelector('img').addClass('tasty')
+      $('img').addClass('tasty')
     });
 
 }
