@@ -19,6 +19,13 @@ function getIt() {
 // tasty to the image to add a red frame to the image.
 
 function frameIt() {
+
+    var element = document.getElementsByTagName('img');
+    class tasty {
+      constructor() {
+
+      }
+    }
     document.querySelector('img').addEventListener('load', () => {
         $(.tasty).append("image");
 
